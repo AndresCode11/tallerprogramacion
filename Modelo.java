@@ -15,6 +15,18 @@ public class Modelo {
     private Double cantidad;
     private Double resultado;
 
+    public double sumar(double a,double b){
+    	return a+b; 
+    }	 
+    public double restar(double a,double b){
+	return a-b;
+    }
+    public int dividir(double a,double b){
+	return a/b;
+    }
+    public int multiplicar(double a,double b){
+	return a*b;
+    }	 
     public void setMoneda(Double moneda) {
         this.moneda = moneda;
     }
